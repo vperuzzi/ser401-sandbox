@@ -1,5 +1,6 @@
 .DS_Store
 hello-vue/node_modules
+jest/node_modules
 /dist
 
 
