@@ -96,7 +96,8 @@
 </template>
 
 <script>
-import axios from "axios";
+import axios from 'axios';
+
 export default {
   data() {
     return {
@@ -110,7 +111,7 @@ export default {
   },
   methods: {
     getCompositions() {
-      const path = "http://localhost:5000/compositions";
+      const path = 'http://localhost:5000/compositions';
       axios
         .get(path)
         .then((res) => {
@@ -122,7 +123,7 @@ export default {
         });
     },
     addComposition(payload) {
-      const path = "http://localhost:5000/compositions";
+      const path = 'http://localhost:5000/compositions';
       axios
         .post(path, payload)
         .then(() => {
@@ -135,8 +136,8 @@ export default {
         });
     },
     initForm() {
-      this.addCompositionForm.title = "";
-      this.addCompositionForm.composer = "";
+      this.addCompositionForm.title = '';
+      this.addCompositionForm.composer = '';
       this.addCompositionForm.finished = [];
     },
     onSubmit(evt) {

@@ -15,9 +15,9 @@ export default new Router({
       component: Ping,
     },
     {
-        path: '/',
-        name: 'Compositions',
-        component: Composition,
+      path: '/',
+      name: 'Compositions',
+      component: Composition,
     },
   ],
 });
