@@ -1,14 +1,8 @@
 .DS_Store
-hello-vue/node_modules
-jest/node_modules
-vue-hm-sandbox/landing/node_modules
-vue-hm-sandbox/node_modules
-integration/client/node_modules
+node_modules
 /dist
 
-# FLask
-flask/venv
-integration/server/venv
+
 # local env files
 .env.local
 .env.*.local
